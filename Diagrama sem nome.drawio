@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T20:15:18.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="fLBndZZ3w07RBtkIKF1N" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T20:37:49.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="7GCPNhZ4RJgqkrnBUE6z" version="22.0.4" type="github">
   <diagram name="Página-1" id="nq7UNl_n_uwpHXJeFOn0">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-2" value="Inicio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-3" value="Número1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-5" value="Número2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-9" value="Dividir o Número 1 pelo Número 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-10" value="A Divisão teve&lt;br&gt;o Resto 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="400" width="134" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-11" value="O Número1&lt;br&gt;é divisível pelo Número2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-12" value="O&amp;nbsp; &amp;nbsp;Número1 NÂO é divisível pelo Número2, a Solução&lt;br&gt;É Equivocada" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-13" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.469;exitY=1.039;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.547;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6UuwgpBn-tf6FkhA7YwA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="426.2800000000001" y="169.99999999999997" as="sourcePoint" />
+            <mxPoint x="340" y="197.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-2" target="6UuwgpBn-tf6FkhA7YwA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="594" y="110" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-5" target="6UuwgpBn-tf6FkhA7YwA-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-9" target="6UuwgpBn-tf6FkhA7YwA-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="450" as="sourcePoint" />
+            <mxPoint x="390" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.565;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-10" target="6UuwgpBn-tf6FkhA7YwA-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="550" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.428;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-10" target="6UuwgpBn-tf6FkhA7YwA-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="550" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.541;exitY=0.794;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.479;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-11" target="6UuwgpBn-tf6FkhA7YwA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="740" as="sourcePoint" />
+            <mxPoint x="390" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.998;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6UuwgpBn-tf6FkhA7YwA-12" target="6UuwgpBn-tf6FkhA7YwA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="600" as="sourcePoint" />
+            <mxPoint x="390" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-28" value="sim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6UuwgpBn-tf6FkhA7YwA-29" value="Não" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="476" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
